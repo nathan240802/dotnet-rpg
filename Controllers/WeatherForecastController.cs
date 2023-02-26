@@ -10,6 +10,10 @@ public class WeatherForecastController : ControllerBase
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 5fff9b6060cb87b20f85c8b979f56a2544f9efbc
 
     private readonly ILogger<WeatherForecastController> _logger;
 

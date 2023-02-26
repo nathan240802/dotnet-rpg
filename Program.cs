@@ -1,15 +1,22 @@
 global using dotnet_rpg.Models;
 global using dotnet_rpg.Services.CharacterService;
 global using dotnet_rpg.Dtos.Character;
+<<<<<<< HEAD
 global using Microsoft.EntityFrameworkCore;
 global using dotnet_rpg.Data;
+=======
+global using AutoMapper;
+>>>>>>> 5fff9b6060cb87b20f85c8b979f56a2544f9efbc
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+<<<<<<< HEAD
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+=======
+>>>>>>> 5fff9b6060cb87b20f85c8b979f56a2544f9efbc
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
